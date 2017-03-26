@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 from django.views.decorators.clickjacking import xframe_options_exempt
 import json
+
 def dumpJsonp(request, data):
     if('sendback' in request.GET):
         data['sendback']=request.GET['sendback']
