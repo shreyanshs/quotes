@@ -1,0 +1,12 @@
+.contain{
+  height: 210px;
+  width: 210px;
+  font-size: 130%;
+  color: blue;
+  margin-left: 4%;
+}
+h1{
+  font-size: 120%;
+  text-align: center;
+  color: red;
+}
